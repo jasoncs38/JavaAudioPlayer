@@ -1,70 +1,11 @@
 import javax.sound.sampled.*;
 import java.io.*;
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args){
-        /*
-        ***********************************************8
-        Scanner scanner=new Scanner(System.in);
-ArrayList<String>L=new ArrayList<>();
 
-
-        System.out.print("Enter the number of foods you want:");
-        int num=scanner.nextInt();
-        scanner.nextLine();
-        String foods;
-
-        for(int i=0;i<num;i++){
-            System.out.println("Enter the food you want");
-             foods=scanner.nextLine();
-            L.add(foods);
-        }for(int i=0;i<num;i++){
-            System.out.println(L);
-        }
-
-
-        scanner.close();
-    ***********************************************
-           //File writer
-        try( FileWriter writer=new FileWriter("C:\\Users\\hp\\Desktop\\test.txt");){
-            writer.write("""
-                    I am starting to like coding
-                    it is very fun to code
-                    I will code every time
-                    """);
-            System.out.println("File has been written");
-        }
-      catch (FileNotFoundException e){
-          System.out.println("FIle not Found");
-      }
-        catch (IOException e){
-            System.out.println("Could not write file");
-        }
-     ************************************
-              //BufferedReader + File Reader
-
-        String filepath="C:\\Users\\hp\\Desktop\\myText.txt";
-     try(   BufferedReader reader=new BufferedReader(new FileReader(filepath))){
-         //System.out.println("FIle read successfully");
-         String line;
-         while((line=reader.readLine())!=null){
-             System.out.println(line);
-         }
-
-     }
-     catch(FileNotFoundException e){
-         System.out.println("File not found");
-     }
-     catch(IOException e){
-         System.out.println("could not read file!");
-     }
-     *************************************************
-*/
         //how to play audio with java
 
         String filepath1="src\\Mission - Anno Domini Beats.wav";
